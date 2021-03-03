@@ -1,13 +1,13 @@
 <template>
-  <h1 class="text-4xl bg-teal-500 text-orange-500">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam molestias saepe est, animi, nemo nisi velit quos dicta iste deleniti in distinctio unde adipisci ratione, provident autem? Porro, cumque nihil!
-  </h1>
+  <HelloWorld msg="Hello World!"/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import HelloWorld from './components/HelloWorld'
 export default defineComponent({
   name: 'App',
+  components: {HelloWorld}
 })
 </script>
 
